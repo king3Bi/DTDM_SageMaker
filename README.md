@@ -16,6 +16,7 @@
 ### Tải file `model.tar.gz` về máy EC2
 ### clone link git https://github.com/khoahc/sentiment-analysis.git về máy EC2
 ứng dụng web có cấu trúc như sau:
+<img src="Project/struct.PNG">
 sentiment-analysis/
     ├── app.py
     ├── model.py
