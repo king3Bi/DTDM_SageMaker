@@ -17,22 +17,6 @@
 ### clone link git https://github.com/khoahc/sentiment-analysis.git về máy EC2
 ứng dụng web có cấu trúc như sau:
 <img src="Project/struct.PNG">
-sentiment-analysis/
-    ├── app.py
-    ├── model.py
-    ├── predict.py
-    ├── utils.py
-    ├── templates/
-    │   └── index.html
-    ├── data/
-    │   ├── teen_code.txt
-    │   └── vietnamese-stopwords-dark.txt
-    ├── models/
-    │   └── vi/
-    │       ├── model.pth
-    │       ├── model_info.pth
-    │       └── word_dict.pkl
-    └── requirements.txt
  
 ### Giải nén file `model.tar.gz` vào trong thư mục models/vi ta được 3 file model.pth, model_info.pth, word_dict.pkl
 ### Chạy lệnh: `pip3 install -r requirements.txt` để cài đặt môi trường
