@@ -33,12 +33,12 @@ docker build -t sentiment-analysis:1.0 .
 docker run -it -d -p 5000:5000 sentiment-analysis:1.0
 ```
 ### Bước 5:	Vì chạy container trên port 5000, nên ta cần mở port 5000 trong securiy group.
-### <img src="Project/1.PNG">
-### <img src="Project/2.PNG">
-### <img src="Project/3.PNG">
+### <img src="Project/image/1.PNG">
+### <img src="Project/image/2.PNG">
+### <img src="Project/image/3.PNG">
 ### Bước 6: Copy DNS của EC2
-### <img src="Project/4.PNG">
+### <img src="Project/image/4.PNG">
 ### Bước 7: Truy cập vào ứng dụng web vừa mới deloy
-### <img src="Project/5.PNG">
+### <img src="Project/image/5.PNG">
 ### Bươc 8: Kết quả
-### <img src="Project/6.PNG">
+### <img src="Project/image/6.PNG">
