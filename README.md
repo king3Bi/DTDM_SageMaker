@@ -1,5 +1,11 @@
-# DTDM_SageMaker
+# Điện toán đám mây
+# Nhóm 25: Đề tài Amazon SageMaker
+### Danh sách thành viên:
+### Đặng Đăng Khoa: 19110379
+### Võ Văn Hậu: 19110361
 
+# Gồm 2 phần chính:
+## Tạo model dự đoán cảm xúc qua bài nhận xét
 ## Tạo 1 notebook instance loại ml.m4.xlarge
 
 ## Sau khi tạo, click vào **Open JupyterLab**
