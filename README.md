@@ -24,21 +24,24 @@ https://github.com/king3Bi/DTDM_SageMaker.git
 ```bash
 git clone https://github.com/khoahc/sentiment-analysis.git
 ```
+### <img src="Project/image/-2.png">
 ### Bước 3: Ta có file Dockerfile trong thư mục vừa clone, ta nhập lệnh sau để tiến hành build 1 image:
 ``` bash
 docker build -t sentiment-analysis:1.0 .
 ```
+### <img src="Project/image/-1.png">
 ### Bước 4: Vì ứng dụng web trong image lắng nghe trên port 5000. Để chạy 1 container với image đã được built, dùng lệnh: 
 ```bash
 docker run -it -d -p 5000:5000 sentiment-analysis:1.0
 ```
+### <img src="Project/image/0.png">
 ### Bước 5:	Vì chạy container trên port 5000, nên ta cần mở port 5000 trong securiy group.
-### <img src="Project/image/1.PNG">
-### <img src="Project/image/2.PNG">
-### <img src="Project/image/3.PNG">
+### <img src="Project/image/1.png">
+### <img src="Project/image/2.png">
+### <img src="Project/image/3.png">
 ### Bước 6: Copy DNS của EC2
-### <img src="Project/image/4.PNG">
+### <img src="Project/image/4.png">
 ### Bước 7: Truy cập vào ứng dụng web vừa mới deloy
-### <img src="Project/image/5.PNG">
+### <img src="Project/image/5.png">
 ### Bươc 8: Kết quả
-### <img src="Project/image/6.PNG">
+### <img src="Project/image/6.png">
